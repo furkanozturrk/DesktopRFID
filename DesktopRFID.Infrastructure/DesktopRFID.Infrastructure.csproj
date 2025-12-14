@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="dmdll.dll" />
+    <None Remove="UHFReader816UBT.dll" />
+    <None Remove="WinPort.dll" />
+    <None Remove="Winppla.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="UHFReader816UBT.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="dmdll.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WinPort.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Winppla.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesktopRFID.Data\DesktopRFID.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CustomControl">
+      <HintPath>..\..\..\sdk\CustomControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

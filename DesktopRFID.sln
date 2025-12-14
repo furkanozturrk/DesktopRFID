@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopRFID", "DesktopRFID\DesktopRFID.csproj", "{971613A5-6EFE-4136-A9E7-D177BEFB041E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopRFID.Data", "DesktopRFID.Data\DesktopRFID.Data.csproj", "{F1D9F6C1-18B1-45C8-BBDD-2A1855FD25CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D79BB964-3353-4109-AF78-62E78F04CE8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopRFID.Infrastructure", "DesktopRFID.Infrastructure\DesktopRFID.Infrastructure.csproj", "{E9A14F94-67E4-4887-BCCD-E23DFCAE3FD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{971613A5-6EFE-4136-A9E7-D177BEFB041E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971613A5-6EFE-4136-A9E7-D177BEFB041E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971613A5-6EFE-4136-A9E7-D177BEFB041E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971613A5-6EFE-4136-A9E7-D177BEFB041E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D9F6C1-18B1-45C8-BBDD-2A1855FD25CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D9F6C1-18B1-45C8-BBDD-2A1855FD25CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D9F6C1-18B1-45C8-BBDD-2A1855FD25CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D9F6C1-18B1-45C8-BBDD-2A1855FD25CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A14F94-67E4-4887-BCCD-E23DFCAE3FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A14F94-67E4-4887-BCCD-E23DFCAE3FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A14F94-67E4-4887-BCCD-E23DFCAE3FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A14F94-67E4-4887-BCCD-E23DFCAE3FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1D9F6C1-18B1-45C8-BBDD-2A1855FD25CE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E9A14F94-67E4-4887-BCCD-E23DFCAE3FD5} = {D79BB964-3353-4109-AF78-62E78F04CE8C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A610D117-F7DF-4EA3-9463-64157BF28522}
+	EndGlobalSection
+EndGlobal
